@@ -1,0 +1,136 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/* Change Brand Font */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Change Navigation Color */
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+  color: #F0AAB1;
+}
+
+/* Make Header Image Responsive */
+.back-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  border-radius: 0px;
+  margin-top: 74px;
+}
+
+/* Header Image Sub-Title */
+.font-italic {
+  font-size: 24px;
+}
+
+a {
+  color: black;
+}
+
+.active {
+  color: white;
+  background-color: #DC3545;
+}
+
+a:hover {
+  color: #f26571;
+}
+
+/* Change Footer Icon Link Color */
+.fi-color {
+  color: #DC3545;
+}
+
+fi-color:hover {
+  color: #E994A2;
+}
+#Services{
+margin-top: 20px!important;
+}
+
+/* Plus Button for adding New Users Bottom Right */
+.box {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  margin-bottom: 30px;
+}
+
+/* Setting Margin for Welcome to OSMS */
+.mainHeading {
+  margin-top: 50px;
+}
+
+/* Setting Margin and Alignment for Welcome to OSM Mobile View */
+@media only screen and (max-width: 600px) {
+  .myclass {
+    margin-top: 350px;
+    text-align: center;
+  }
+}
+
+
+.carousel-item{
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: contain;
+} 
+.carousel-caption{
+  bottom: 220px;
+}
+.carousel-caption h5{
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  color:#DC3545;
+}
+.carousel-caption p{
+ 
+ color: blue;
+  font-size: 24px;
+  font-weight: 400;
+}
+.carousel-item img{
+  height: 100vh;
+}
+.navbar-light .navbar-nav .nav-link  {
+  color: #DC3545!important;
+}
+.navbar-brand{
+  color: #DC3545!important;
+}
+.navbar-nav a{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.nav-link:hover{
+border-bottom: 1px solid #DC3545;
+}
+
+@media only screen and (max-width:767px){
+  .navbar-nav.ml-auto{
+    background: rgba(0, 0, 0, 0.9);
+  }
+  .navbar-toggler{
+    padding: 1px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+  }
+}
+
+.bgcolor.scrolled{
+  background-color: rgb(0,0,0,0.9);: 
+}
